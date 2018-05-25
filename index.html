@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<title>FoodLTD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <!-- bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/libs.min.css"> -->
+  <link rel="stylesheet" href="libs/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="libs/bootstrap-4.0.0/dist/css/bootstrap.css"> -->
+  <!-- slick css -->
+  <link rel="stylesheet" href="libs/slick-1.8.0/slick/slick.css">
+  <link rel="stylesheet" href="libs/slick-1.8.0/slick/slick-theme.css">
+  <!-- slide menu pushy-->
+  <link rel="stylesheet" href="libs/Responsive-Multi-purpose-Navigation-Plugin-jQuery-Pushy/css/normalize.css">
+  <link rel="stylesheet" href="libs/Responsive-Multi-purpose-Navigation-Plugin-jQuery-Pushy/css/demo.css">
+  <link rel="stylesheet" href="libs/Responsive-Multi-purpose-Navigation-Plugin-jQuery-Pushy/css/pushy.css">
+  <!-- form stilization -->
+  <link rel="stylesheet" href="libs/jquery-mask-check-phone-field/style.css">
+  <!-- font-awesome.css -->
+  <script defer src="libs/fontawesome-free-5.0.7/svg-with-js/js/fontawesome-all.js"></script>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- jQuery -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.js"></script>  -->
+</head>
+<body>
+
+  <nav id="navbar" class="navbar navbar-toggleable-md navbar-dark bg-dark sticky">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand " href="#" >
+      <img src="img/___1170px_12columns_NEW_exp_03logo.png" alt="logo"> 
+    </a>
+
+    <ul class="nav navbar-nav navbar-right" id="rightmenu">
+      <li ><a href="#" class="close-btn-right"><span class="fas fa-phone"></span>(044) 789-64-19<i class="fas fa-chevron-down"></i></a></li>
+      <!-- <li><a href="#" class="btn btn-social contact-btn side-right-pushy-button "><i class="fas fa-phone fa-3x"></i><br>Контакты</a></li> -->
+
+    </ul>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <!--   <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">О нас <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Сотрудничество</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Товары и цены</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Аренда оборудования</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Бесплатный звонок</a>
+        </li>
+      </ul> -->
+      
+    </div>
+  </nav>
+
+  <nav id="sideLeftPushy" class="pushy pushy-left" >
+    <ul class="text-left">
+      <li><a href="#" class="side-left-pushy-button close-btn-left" onclick="event.preventDefault()"><i class="far fa-times-circle fa-2x"></i></a></li>
+      <li><a href="#about">О нас</a></li> 
+      <li><a href="#cooperate">Сотрудничество</a></li>
+      <li><a href="#goods">Товары и цены</a></li>
+      <li><a href="#equipment">Аренда оборудования</a></li>
+      <li><a href="#freecall">Бесплатный звонок</a></li>
+    </ul>
+  </nav>
+
+  <nav id="sideRightPushy" class="pushy pushy-right text-center" onclick="event.preventDefault()">
+    <ul class="text-center">
+      <li><a href="#" class="side-right-pushy-button close-btn-right test"><i class="far fa-times-circle fa-2x"></i></a></li>
+
+      <!-- <a href="tel:0443607080" class="htel1 htel">(044) 360 70 80</a> -->
+
+      <li><a href="tel:380508652224"><img src="img/MTS2.svg" width="16px">+38 (050) 865 22 24</a></li>
+      <li><a href="tel:380968652224"><img src="img/kievstar2-01.svg" width="20px">+38 (096) 865 22 24</a></li>
+      <li><a href="tel:380442226109"><i class="fas fa-phone"></i>+38 (044) 222 61 09</a></li>
+      <!-- <li><a href="#"><i class="fas fa-phone"></i>(044) 789-64-19</a></li>
+        <li><a href="#"><img src="img/untitled.png" alt="" width="16px">(044) 789-64-19</a></li> -->
+        <li class="testing">
+          <form action="#" method="post" class="phone_form">
+            <div class="user_phone">
+              <input type="tel" required placeholder="Ваш телефон" id="user_phone" class="user-phone" title="Формат: +38 (096) 999 99 99"/>
+            </div>
+            <!-- <input type="submit" class=" btn_submit " disabled /> -->
+          </form>
+        </li>
+        <li><button class="btn call">Позвонить мне</button></li>
+      </ul>
+      <p>График работы:</p>
+      <p>Пн-Пт: 9:00 - 18:00</p>
+    </nav>
+
+    <header>
+      <div class="box1">
+       <div class="container">
+        <div class="row mainblock">
+         <div class="col-sm-12">
+          <div class="mx-auto w-50 p-3 text-center main-logo">
+        <!--   <img src="img/___1170px_12columns_NEW_exp_03.png" alt="" class="main-logo-image"> 
+          <h1>FOODLTD</h1>
+          <p class="main-logo-text">U K R A I N E</p> -->
+          <img class="navbar-bran-second" src="img/logo.svg" alt="logo">
+          <!-- <p><img src="img/food_logo.png" alt="" style="width: 80%"></p> -->
+        </div>
+      </div>
+    </div>
+    <div class="row icons-block">
+     <div class="col-sm-12">
+       <a class="btn btn-social side-left-pushy-button"> <i class="fas fa-bars"></i><br>Меню</a>
+       <a class="btn btn-social contact-btn side-right-pushy-button "><i class="fas fa-phone"></i><br>Контакты</a>
+     </div>
+   </div>
+ </div>
+</div>
+<div class="encircle bounce animated">
+  <div class="arrow">
+  </div>
+</div>
+</header>
+
+<main>
+  <a name="about"> <div class="box2"></a>
+    <div class="container">
+     <h2 >О НАС</h2>
+     <p></p>
+     <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 border-right-green " >
+        <p><img src="img/123_1411651966capsulas-compatibles-ecologicas_.png" alt="qwe"></p>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 based-aboutus">
+         <!--  <p class="px-5">Компания «Food LTD» более 4х лет занимается оптовой, розничной и мелкооптовой торговлей и предлагает расширенный ассортимент товаров из Европы. <br>
+         Наша компания  является официальным поставщиком кофе Guilis (Гилис)в Украине. В нашем магазине возможно заказать  кофе оптом Гилис, а также в розницу кофе Гилис.</p> -->
+         <p class="px-5">ООО "Фуд-ЛТД​ Украина" была основана с 2012 года и успела завоевать доверие своих потребителей, став стабильным и надежным поставщиком.<br>
+         Основное направление компании импорт и дистрибуция продуктов питания и торгового оборудования.</p>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="box3 bg ">
+  <div class="container">
+    <div class="row"> <a name="cooperate"></a>   
+      <h3>Приглашаем к сотрудничеству</h3>
+      <div class="col-12 col-sm-6 px-4 border-right">
+        <ul>
+          <li>дистрибьюторов</li>
+          <li>посредников</li>
+          <li>интернет-магазины </li>
+          <li>оптовые базы </li>
+          <li>торговые сети</li>
+          <li>розничных покупателей</li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 px-4 sigment" >
+        <a href="#" class="btn horeca" role="button">а также весь сегмент<br>HoReCa</a>
+      </div>
+      <div class="col-12 col-sm-12 text-center"> 
+        <button type="button" class="btn btn-green "  data-toggle="modal" data-target="#myModal">Сотрудничать</button>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content jus">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title ">test</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form class="form validity" method="post" action="/">
+                  <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input id="name" name="name" class="form-control" type="text" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" class="form-control" type="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Номер телефона</label>
+                    <input id="phone" name="phone" class="form-control" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                  </div>
+                  <button class="btn btn-block btn-primary" type="submit">Submit</button>
+                </form>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- end of The Modal -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="box4">
+  <div class="container"> <a name="goods"></a>
+    <h4>Товары и цены</h4>
+    <ul class="category">
+      <li><a href="">Signora</a></li>
+      <li><a href="">Guilis</a></li>
+      <li><a href="">Cornella</a></li>
+    </ul>
+    <div class="goods">
+      <div class="wrap">
+       <div class="item border">
+        <p class="add-padding"><img src="img/coffee/2.jpg" alt=""></p>
+        <div class="text-block">
+          <p>Special Mixed 30/70</p>
+          <p><span>1000 гр</span></p>
+          <button type="button" class="btn btn-outline-success">
+            <!-- <i class="fas fa-euro-sign"></i>  -->
+            9.<sup>68 </sup> грн</button>
+          </div>
+          <div class="description">
+            <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+            <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+            <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+            <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="item border">
+          <p class="add-padding"><img src="img/coffee/guilis_90-10.jpg" alt=""></p>
+          <div class="text-block">
+            <p>Special Mixed 30/70</p>
+            <p><span>1000 гр</span></p>
+            <button type="button" class="btn btn-outline-success">
+              <!-- <i class="fas fa-euro-sign"></i>  -->
+              11.<sup>45</sup> грн</button>
+            </div>
+            <div class="description">
+              <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+              <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+              <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+              <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+            </div>
+          </div>
+        </div>
+        <div class="wrap">
+          <div class="item border">
+            <p class="add-padding"><img src="img/coffee/guilis_90-10.jpg" alt=""></p>
+            <div class="text-block">
+              <p>Cornella Balance 50/50</p>
+              <p><span>1000 гр</span></p>
+              <button type="button" class="btn btn-outline-success">
+                <!-- <i class="fas fa-euro-sign"></i>  -->
+                9.<sup>68</sup> грн</button>
+              </div>
+              <div class="description">
+                <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+                <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+                <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+                <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrap">
+            <div class="item border">
+              <p class="add-padding"><img src="img/coffee/3.jpg" alt=""></p>
+              <div class="text-block">
+                <p>Special Mixed 30/70</p>
+                <p><span>1000 гр</span></p>
+                <button type="button" class="btn btn-outline-success">
+                  <!-- <i class="fas fa-euro-sign"></i>  -->
+                  9.<sup>68</sup> грн</button>
+                </div>
+                <div class="description">
+                  <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+                  <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+                  <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+                  <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+                </div>
+              </div>
+            </div>
+            <div class="wrap">
+              <div class="item border">
+                <p class="add-padding"><img src="img/coffee/1.jpg" alt=""></p>
+                <div class="text-block">
+                  <p>Special Mixed 30/70</p>
+                  <p><span>1000 гр</span></p>
+                  <button type="button" class="btn btn-outline-success">
+                    <!-- <i class="fas fa-euro-sign"></i>  -->
+                    9.<sup>68</sup> грн</button>
+                  </div>
+                  <div class="description">
+                    <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+                    <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+                    <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+                    <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="wrap">
+                <div class="item border">
+                  <p class="add-padding"><img src="img/coffee/1.jpg" alt=""></p>
+                  <div class="text-block">
+                    <p>Cornella Balance 50/50</p>
+                    <p><span>1000 гр</span></p>
+                    <button type="button" class="btn btn-outline-success">
+                      <!-- <i class="fas fa-euro-sign"></i>  -->
+                      9.<sup>68</sup> грн</button>
+                    </div>
+                    <div class="description">
+                      <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+                      <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+                      <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+                      <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="wrap">
+                  <div class="item border">
+                    <p class="add-padding"><img src="img/coffee/2.jpg" alt=""></p>
+                    <div class="text-block">
+                      <p>Special Mixed 30/70</p>
+                      <p><span>1000 гр</span></p>
+                      <button type="button" class="btn btn-outline-success">
+                        <!-- <i class="fas fa-euro-sign"></i>  -->
+                        9.<sup>68</sup> грн</button>
+                      </div>
+                      <div class="description">
+                        <p style="font-size: 14px; font-weight: normal;">Испанский кофе</p>
+                        <p style="font-size: 16px; font-weight: bold;">Guilis Grano de Oro </p><br><br>
+                        <p style="font-size: 12px;"><b>Состав:</b> Арабика 30% / Робуста 70%</p><br><br>
+                        <p style="font-size: 14px; font-weight: normal;">Обладает крепким вкусом и приятным ароматом обжаренных злаков. Напиток имеет плотную консистенцию и кремовую пену. Отменное сочетание приятного вкуса и волшебного аромата зарядит вас отличным настроением!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="box5">
+              <div class="container"> <a name="equipment"></a>
+                <h5>КОФЕЙНОЕ ОБОРУДОВАНИЕ<br>АРЕНДА И УСЛОВИЯ</h5>
+                <div class="equipment">
+                  <div>
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-6 border-line">
+                        <p ><img src="img/14112666.png" alt="machine" ></p><br>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6 space">
+                        <p>Кофемашина <span class="green-text">Saeco Aulika</span> кофеварка 
+                          эспрессо <span class="green-text">автоматическая</span></p>
+                          <ul>
+                            <li>для зернового кофе</li>
+                            <li>для большого офиса</li>
+                          </ul>
+                          <p>Кофемолка с <span class="green-text">регулировкой степени 
+                          помола</span></p>
+                          <ul>
+                            <li>контроль крепости кофе</li>
+                            <li>регулировка порции воды</li>
+                            <li>самоочистка от накипи</li>
+                            <li>приготовление капучино</li>
+                            <li>дисплей</li>
+                            <li>контейнер для зерен 1000 г</li>
+                          </ul>
+                          <p><span class="green-text">Бесплатная аренда</span> при заказе от 12 кг 
+                          в месяц</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>your content</div>
+                    <div>your content</div>
+                    <div>your content</div>
+                  </div>
+                </div>
+              </div>
+
+            </main>
+
+            <footer>
+              <div class="box6">
+                <div class="container"> <a name="freecall"></a>
+                  <div class="row">
+                   <div class="col-md-12 text-center"> 
+                     <p>Закажите бесплатный звонок<br><span class="green-text">прямо сейчас!</span></p>
+                     <button type="button" class="btn btn-green " data-toggle="modal" data-target="#myModal">Заказать</button>
+                     <!--  -->
+
+                     <!-- The Modal -->
+                     <div class="modal fade" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content jus">
+
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h4 class="modal-title">test</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <form class="form validity" method="post" action="/">
+                              <div class="form-group">
+                                <label for="name">Имя</label>
+                                <input id="name" name="name" class="form-control" type="text" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" class="form-control" type="email" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="phone">Номер телефона</label>
+                                <input id="phone" name="phone" class="form-control" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                              </div>
+                              <button class="btn btn-block btn-primary" type="submit">Submit</button>
+                            </form>
+                          </div>
+
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end of The Modal -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+
+          <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+          <script src="js/bootstrap.min.js"></script>
+          <!-- slick -->
+          <script src="libs/slick-1.8.0/slick/slick.min.js"></script>
+          <script src="js/main.js"></script>
+          <!-- Pushy JS -->
+          <script src="libs/Responsive-Multi-purpose-Navigation-Plugin-jQuery-Pushy/js/pushy.js"></script>
+
+          <script src="js/pushySide.js"></script>
+
+          <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+          <script src="libs/jquery-mask-check-phone-field/jquery.maskedinput.min.js"></script>
+          <script src="libs/jquery-mask-check-phone-field/script.js"></script>
+          <!-- validation -->
+          <script src="libs/Form-Validation-Plugin-jQuery-Validity/js/jquery.validity.js"></script>
+
+        </body>
+        </html>
